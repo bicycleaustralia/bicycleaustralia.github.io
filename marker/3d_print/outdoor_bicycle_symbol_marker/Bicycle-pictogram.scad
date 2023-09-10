@@ -4,7 +4,7 @@
 // Author: Brian Khuu 2023
 
 // Mount Spec
-fence_mount_depth = 50;
+fence_mount_depth = 52;
 fence_mount_width_top = 50;
 fence_mount_width_bottom = 50-10;
 fence_mount_width_latch_thickness = 4.0;
@@ -78,5 +78,5 @@ minkowski()
 
 /////////////////////////////////////////////////
 // Check against the pole model
-if(0)
-translate([0,-25*rescaling,5])%cube([200,50,50]);
+if(1)
+translate([0,-52,2.5])%cube([200,52,50]);
